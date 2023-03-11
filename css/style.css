@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+    height: 500px;
+}
+H1{
+    text-shadow: 2px 0px 3px rgba(102, 109, 137, 0.67);
+
+    font-family: Algerian;
+}
+.container {
+
+	width:90%;
+
+	height:20vh;
+
+	display:grid;
+ 
+
+	grid-template-columns:100%;
+
+	grid-template-rows:auto auto auto;
+
+	align-items:center;
+
+	border-radius:1vw;
+
+	padding:1vw 1vw;
+
+    margin: auto;
+
+    background-color: rgba(0, 0, 0, 0.378);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+}
+
+.slider {
+
+	appearance:none;
+
+	background:#fff4;
+
+	height:1vw;
+
+}
+
+.slider::-webkit-slider-thumb {
+
+	appearance:none;
+
+	width:2vw;
+
+	height:2vw;
+
+	border-radius:4vw;
+
+	background:var(--sliderThumbBg);
+
+}
+
+.resColor {
+
+	width:40%;
+
+	height:15vh;
+
+	border-radius:5vh;
+
+}
